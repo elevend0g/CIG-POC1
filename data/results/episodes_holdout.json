@@ -1,0 +1,386 @@
+{
+  "total_episodes": 20,
+  "statistics": {
+    "total_episodes": 20,
+    "success_rate": 0.75,
+    "avg_depth": 1.3,
+    "avg_nodes_explored": 2.6,
+    "improvement": -0.30000000000000004,
+    "first_10_success": 0.9,
+    "last_10_success": 0.6
+  },
+  "episodes": [
+    {
+      "problem_text": "What is the sum of all factors of 11?",
+      "initial_value": 11,
+      "path": [
+        [
+          "factors",
+          "small_prime"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 12,
+      "expected": 12,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7633686,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.35473083441970854
+    },
+    {
+      "problem_text": "What is the sum of all factors of 39?",
+      "initial_value": 39,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 56,
+      "expected": 56,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7634127,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.4637168384349651
+    },
+    {
+      "problem_text": "What is the sum of all factors of 16?",
+      "initial_value": 16,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 31,
+      "expected": 31,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7634459,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.4637168384349651
+    },
+    {
+      "problem_text": "What is the product of all factors of 29?",
+      "initial_value": 29,
+      "path": [],
+      "result": 29,
+      "expected": 29,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7634635,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 1.0
+    },
+    {
+      "problem_text": "What is the product of all factors of 18?",
+      "initial_value": 18,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "product_list",
+          "short_list"
+        ]
+      ],
+      "result": 5832,
+      "expected": 5832,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7634935,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.3651617361960513
+    },
+    {
+      "problem_text": "What is the product of all factors of 13?",
+      "initial_value": 13,
+      "path": [],
+      "result": 13,
+      "expected": 13,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7635124,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 1.0
+    },
+    {
+      "problem_text": "How many factors does 18 have?",
+      "initial_value": 18,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "count",
+          "short_list"
+        ]
+      ],
+      "result": 6,
+      "expected": 6,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7635417,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.41927620905061386
+    },
+    {
+      "problem_text": "How many factors does 9 have?",
+      "initial_value": 9,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "count",
+          "short_list"
+        ]
+      ],
+      "result": 3,
+      "expected": 3,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.763569,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.41927620905061386
+    },
+    {
+      "problem_text": "How many factors does 53 have?",
+      "initial_value": 53,
+      "path": [
+        [
+          "factors",
+          "small_prime"
+        ],
+        [
+          "count",
+          "short_list"
+        ]
+      ],
+      "result": 2,
+      "expected": 2,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7635975,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.3207349553896249
+    },
+    {
+      "problem_text": "What is the GCD of 78 and 81?",
+      "initial_value": [
+        78,
+        81
+      ],
+      "path": [],
+      "result": null,
+      "expected": 3,
+      "goal_satisfied": false,
+      "timestamp": 1762198113.7636178,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 0.0
+    },
+    {
+      "problem_text": "What is the GCD of 52 and 53?",
+      "initial_value": [
+        52,
+        53
+      ],
+      "path": [],
+      "result": null,
+      "expected": 1,
+      "goal_satisfied": false,
+      "timestamp": 1762198113.7636368,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 0.0
+    },
+    {
+      "problem_text": "What is the GCD of 16 and 30?",
+      "initial_value": [
+        16,
+        30
+      ],
+      "path": [],
+      "result": null,
+      "expected": 2,
+      "goal_satisfied": false,
+      "timestamp": 1762198113.7636547,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 0.0
+    },
+    {
+      "problem_text": "What is the LCM of 13 and 26?",
+      "initial_value": [
+        13,
+        26
+      ],
+      "path": [],
+      "result": null,
+      "expected": 26,
+      "goal_satisfied": false,
+      "timestamp": 1762198113.763672,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 0.0
+    },
+    {
+      "problem_text": "What is the LCM of 40 and 26?",
+      "initial_value": [
+        40,
+        26
+      ],
+      "path": [],
+      "result": null,
+      "expected": 520,
+      "goal_satisfied": false,
+      "timestamp": 1762198113.763689,
+      "search_depth": 0,
+      "nodes_explored": 1,
+      "final_score": 0.0
+    },
+    {
+      "problem_text": "Is 181 prime?",
+      "initial_value": 181,
+      "path": [
+        [
+          "is_prime",
+          "medium_number"
+        ]
+      ],
+      "result": true,
+      "expected": true,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7637265,
+      "search_depth": 1,
+      "nodes_explored": 2,
+      "final_score": 0.7608515499999999
+    },
+    {
+      "problem_text": "Is 64 prime?",
+      "initial_value": 64,
+      "path": [
+        [
+          "is_prime",
+          "small_number"
+        ]
+      ],
+      "result": false,
+      "expected": false,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7637558,
+      "search_depth": 1,
+      "nodes_explored": 2,
+      "final_score": 0.704755
+    },
+    {
+      "problem_text": "What is the sum of even factors of 30?",
+      "initial_value": 30,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "filter_even",
+          "short_list"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 48,
+      "expected": 48,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7638137,
+      "search_depth": 3,
+      "nodes_explored": 7,
+      "final_score": 0.1134992560892023
+    },
+    {
+      "problem_text": "What is the sum of even factors of 10?",
+      "initial_value": 10,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "filter_even",
+          "short_list"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 12,
+      "expected": 12,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.763868,
+      "search_depth": 3,
+      "nodes_explored": 7,
+      "final_score": 0.1134992560892023
+    },
+    {
+      "problem_text": "What is the largest factor of 65 (other than 65 itself)?",
+      "initial_value": 65,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "max_excluding_self",
+          "short_list"
+        ]
+      ],
+      "result": 13,
+      "expected": 13,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7639031,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.41927620905061386
+    },
+    {
+      "problem_text": "What is the largest factor of 21 (other than 21 itself)?",
+      "initial_value": 21,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "max_excluding_self",
+          "short_list"
+        ]
+      ],
+      "result": 7,
+      "expected": 7,
+      "goal_satisfied": true,
+      "timestamp": 1762198113.7639346,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.41927620905061386
+    }
+  ]
+}

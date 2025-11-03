@@ -1,0 +1,110 @@
+{
+  "total_episodes": 5,
+  "statistics": {
+    "total_episodes": 5,
+    "success_rate": 0.8,
+    "avg_depth": 1.4,
+    "avg_nodes_explored": 3.0,
+    "improvement": 0.0,
+    "first_10_success": 0.8,
+    "last_10_success": 0.8
+  },
+  "episodes": [
+    {
+      "problem_text": "What is the sum of all factors of 12?",
+      "initial_value": 12,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "sum_list",
+          "short_list"
+        ]
+      ],
+      "result": 28,
+      "expected": 28,
+      "goal_satisfied": true,
+      "timestamp": 1762196977.7765448,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.5
+    },
+    {
+      "problem_text": "How many factors does 24 have?",
+      "initial_value": 24,
+      "path": [
+        [
+          "factors",
+          "small_composite"
+        ],
+        [
+          "count",
+          "short_list"
+        ]
+      ],
+      "result": 8,
+      "expected": 8,
+      "goal_satisfied": true,
+      "timestamp": 1762196977.7765665,
+      "search_depth": 2,
+      "nodes_explored": 3,
+      "final_score": 0.5
+    },
+    {
+      "problem_text": "Is 17 prime?",
+      "initial_value": 17,
+      "path": [
+        [
+          "is_prime",
+          "small_number"
+        ]
+      ],
+      "result": true,
+      "expected": true,
+      "goal_satisfied": true,
+      "timestamp": 1762196977.7765758,
+      "search_depth": 1,
+      "nodes_explored": 3,
+      "final_score": 0.5
+    },
+    {
+      "problem_text": "What is the GCD of 12 and 18?",
+      "initial_value": [
+        12,
+        18
+      ],
+      "path": [
+        [
+          "gcd",
+          "small_numbers"
+        ]
+      ],
+      "result": 6,
+      "expected": 6,
+      "goal_satisfied": true,
+      "timestamp": 1762196977.7765827,
+      "search_depth": 1,
+      "nodes_explored": 3,
+      "final_score": 0.5
+    },
+    {
+      "problem_text": "What is the sum of all factors of 100?",
+      "initial_value": 100,
+      "path": [
+        [
+          "factors",
+          "large_composite"
+        ]
+      ],
+      "result": 150,
+      "expected": 217,
+      "goal_satisfied": false,
+      "timestamp": 1762196977.7765877,
+      "search_depth": 1,
+      "nodes_explored": 3,
+      "final_score": 0.5
+    }
+  ]
+}

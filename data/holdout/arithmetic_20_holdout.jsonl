@@ -1,0 +1,20 @@
+{"text": "What is the sum of all factors of 11?", "params": {"n": 11}, "expected": 12, "category": "factors_sum", "operation_chain": ["factors", "sum_list"]}
+{"text": "What is the sum of all factors of 39?", "params": {"n": 39}, "expected": 56, "category": "factors_sum", "operation_chain": ["factors", "sum_list"]}
+{"text": "What is the sum of all factors of 16?", "params": {"n": 16}, "expected": 31, "category": "factors_sum", "operation_chain": ["factors", "sum_list"]}
+{"text": "What is the product of all factors of 29?", "params": {"n": 29}, "expected": 29, "category": "factors_product", "operation_chain": ["factors", "product_list"]}
+{"text": "What is the product of all factors of 18?", "params": {"n": 18}, "expected": 5832, "category": "factors_product", "operation_chain": ["factors", "product_list"]}
+{"text": "What is the product of all factors of 13?", "params": {"n": 13}, "expected": 13, "category": "factors_product", "operation_chain": ["factors", "product_list"]}
+{"text": "How many factors does 18 have?", "params": {"n": 18}, "expected": 6, "category": "factors_count", "operation_chain": ["factors", "count"]}
+{"text": "How many factors does 9 have?", "params": {"n": 9}, "expected": 3, "category": "factors_count", "operation_chain": ["factors", "count"]}
+{"text": "How many factors does 53 have?", "params": {"n": 53}, "expected": 2, "category": "factors_count", "operation_chain": ["factors", "count"]}
+{"text": "What is the GCD of 78 and 81?", "params": {"a": 78, "b": 81}, "expected": 3, "category": "gcd", "operation_chain": ["gcd"]}
+{"text": "What is the GCD of 52 and 53?", "params": {"a": 52, "b": 53}, "expected": 1, "category": "gcd", "operation_chain": ["gcd"]}
+{"text": "What is the GCD of 16 and 30?", "params": {"a": 16, "b": 30}, "expected": 2, "category": "gcd", "operation_chain": ["gcd"]}
+{"text": "What is the LCM of 13 and 26?", "params": {"a": 13, "b": 26}, "expected": 26, "category": "lcm", "operation_chain": ["lcm"]}
+{"text": "What is the LCM of 40 and 26?", "params": {"a": 40, "b": 26}, "expected": 520, "category": "lcm", "operation_chain": ["lcm"]}
+{"text": "Is 181 prime?", "params": {"n": 181}, "expected": true, "category": "primality", "operation_chain": ["is_prime"]}
+{"text": "Is 64 prime?", "params": {"n": 64}, "expected": false, "category": "primality", "operation_chain": ["is_prime"]}
+{"text": "What is the sum of even factors of 30?", "params": {"n": 30}, "expected": 48, "category": "factors_filter_sum", "operation_chain": ["factors", "filter_even", "sum_list"]}
+{"text": "What is the sum of even factors of 10?", "params": {"n": 10}, "expected": 12, "category": "factors_filter_sum", "operation_chain": ["factors", "filter_even", "sum_list"]}
+{"text": "What is the largest factor of 65 (other than 65 itself)?", "params": {"n": 65}, "expected": 13, "category": "largest_proper_factor", "operation_chain": ["factors", "max_excluding_self"]}
+{"text": "What is the largest factor of 21 (other than 21 itself)?", "params": {"n": 21}, "expected": 7, "category": "largest_proper_factor", "operation_chain": ["factors", "max_excluding_self"]}
